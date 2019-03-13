@@ -5,7 +5,7 @@ clrscr();
 int arr[100],num,n,i;char ch='n';
 printf("Enter the size of the array:");
 scanf("%d",&n);
-printf("Enter the elements of the array in ascending order(sorted form):");
+printf("Enter the elements of the array:");
 for(i=0;i<n;i++)
 scanf("%d",&arr[i]);
 printf("Enter the number to be searched:");
